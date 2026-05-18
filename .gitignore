@@ -58,6 +58,7 @@ _worker.js
 # Supabase local (CLI temp)
 .supabase/
 .branches/
+supabase/.temp/
 
 # pnpm store
 .pnpm-store/
