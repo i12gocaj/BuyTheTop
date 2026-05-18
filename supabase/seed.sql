@@ -1,5 +1,5 @@
 -- =============================================================================
--- BuyTheTop — Synthetic Seed Data
+-- BuyTheTop Synthetic Seed Data
 -- =============================================================================
 -- Populates the database with 50 fake users, rankings, payments and position
 -- history so the leaderboard is non-empty for demos and screenshots.
@@ -10,7 +10,7 @@
 --   admin@buythetop.demo  /  Admin1234!   (role = admin)
 --   demo@buythetop.demo   /  Demo1234!    (role = user, position #3)
 --
--- The other 48 users exist only as ranking entries — they can't log in.
+-- The other 48 users exist only as ranking entries (they can't log in).
 -- =============================================================================
 
 begin;
@@ -227,7 +227,7 @@ values
   ('00000000-0000-4000-a000-000000000001'::uuid, 'CrownKeeper',
    'Guardian of the realm. Sees all, says little.', 'admin', true),
   ('00000000-0000-4000-a000-000000000002'::uuid, 'DemoDuke',
-   'Demo account — try the platform from here.', 'user', true);
+   'Demo account, try the platform from here.', 'user', true);
 
 -- -----------------------------------------------------------------------------
 -- Rankings: assign contributions and compute positions

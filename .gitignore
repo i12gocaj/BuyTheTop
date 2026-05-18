@@ -18,6 +18,7 @@ yarn-error.log*
 
 # env files
 .env*
+!.env.example
 
 # vercel
 .vercel
@@ -51,6 +52,9 @@ _worker.js
 
 # Playwright MCP scratch
 .playwright-mcp/
+
+# Serena scratch
+.serena/
 
 # Backups
 .env.local.production-backup

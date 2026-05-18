@@ -1,5 +1,5 @@
 -- =============================================================================
--- BuyTheTop — Database Schema
+-- BuyTheTop Database Schema
 -- =============================================================================
 -- Run this in the Supabase SQL editor (or via `supabase db push`) to create
 -- all the tables, indexes, triggers and RLS policies the app expects.
