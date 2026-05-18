@@ -1,0 +1,9 @@
+# Cloudflare Pages Headers
+
+/*
+  X-Robots-Tag: index, follow
+
+# Domain redirect headers
+https://buythetop.pages.dev/*
+  Location: https://buythetop.vip/:splat
+  Status: 301

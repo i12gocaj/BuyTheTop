@@ -1,0 +1,3 @@
+# Redirect from .pages.dev to custom domain
+https://buythetop.pages.dev/* https://buythetop.vip/:splat 301!
+buythetop.pages.dev/* https://buythetop.vip/:splat 301!

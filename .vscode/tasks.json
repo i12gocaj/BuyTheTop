@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run MCP (supabase)",
+      "type": "shell",
+      "command": "node ./scripts/run-supabase-mcp.js",
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "env": {
+          "NODE_ENV": "development",
+          "MCP_API_KEY": "${input:MCP_API_KEY}"
+        }
+      },
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    }
+  ],
+  "inputs": [
+    {
+      "id": "MCP_API_KEY",
+      "type": "promptString",
+      "description": "MCP_API_KEY (leave empty to use .env.local)",
+      "default": ""
+    }
+  ]
+}

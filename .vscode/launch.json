@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch MCP Server",
+      "program": "${workspaceFolder}/scripts/run-supabase-mcp.js",
+      "cwd": "${workspaceFolder}",
+      "runtimeArgs": [],
+      "envFile": "${workspaceFolder}/.env.local",
+      "env": {
+        "NODE_ENV": "development"
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+name = "buythetop"
+compatibility_date = "2025-01-15"
+compatibility_flags = ["nodejs_compat"]
+
+# Configuración de Pages
+pages_build_output_dir = ".vercel/output/static"
+
+# Variables de entorno (configurar en Cloudflare dashboard)
+# NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY
+# STRIPE_SECRET_KEY  
+# STRIPE_WEBHOOK_SECRET
+# NEXT_PUBLIC_SUPABASE_URL
+# NEXT_PUBLIC_SUPABASE_ANON_KEY
+# SUPABASE_SERVICE_ROLE_KEY
+# RESEND_API_KEY
+# FROM_EMAIL
+# SUPPORT_EMAIL
+# NEXT_PUBLIC_SITE_URL
+# NEXT_PUBLIC_SITE_NAME
+# NEXT_PUBLIC_GTM_ID
+# NEXT_PUBLIC_GOOGLE_ANALYTICS
+# GOOGLE_SITE_VERIFICATION
